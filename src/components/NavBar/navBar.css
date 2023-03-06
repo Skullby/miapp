@@ -1,15 +1,24 @@
 
 
-nav {
-    background-color: lightblue;
-    width: auto;
-    height: auto;
-    padding-top: 10px;
-    text-align: center;
+.navBar {
+    display: inline-flex;
+    max-width: 1000px;
 }
 
-h1{
-    color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    
+.navTitle {
+    margin-block-start: 20px;
+    margin-block-end: 0;
+}
+
+.headerMenu {
+    float: right;
+    font-size: x-large;
+    margin-block-start: 30px;
+
+}
+
+.headerMenu li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
 }

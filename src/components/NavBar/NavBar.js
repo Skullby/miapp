@@ -1,16 +1,21 @@
-import './navBar.css';
-import Nav from 'react-bootstrap/Nav';
+import './NavBar.css';
 
 function NavBar() {
     return (
-      <nav>
-        <h1>Nicolas Yunes</h1>
-        <ul>
-          <li>Projects</li>
-          <li>Blog</li>
-          <li>About</li>
+      <div className='navBar'>
+        <h1 className='navTitle'>Nicolas Yunes</h1>
+        <ul className='headerMenu'>
+          <li>
+            <a>Projects</a>
+          </li>
+          <li>
+            <a>Blog</a>
+          </li>
+          <li>
+            <a>About</a>
+          </li>
         </ul>
-      </nav>
+      </div>
     );
   }
   
